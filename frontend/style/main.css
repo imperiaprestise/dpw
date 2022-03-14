@@ -1,0 +1,11 @@
+@import url('http://fonts.googleapis.com/css/family=Quicksand:400,500&subset=latin-ext');
+body{
+    padding: 100px;
+    background-image: linear-gradient(-20deg, #ff2846 0%);
+
+    h1{
+        color: orange;
+        font-family: sans-serif;
+    }
+
+}

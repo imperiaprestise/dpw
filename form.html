@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body{
+
+padding: 0px;
+background-image: url(frontend/images/background.png);
+text-align: center;
+font-family: 'Poppins';
+}
+.container{
+width: 100%;
+height: 100%;
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))url(frontend/images/background.png);
+background-position: center;
+background-size: cover;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+}
+.navbar{
+height: 12%;
+display: flex;
+align-items: right;
+
+}
+.logo{
+width:50px;
+cursor:pointer;
+}
+nav{
+flex: 1;
+text-align: left;
+}
+nav ul li{
+text-align: left;
+list-style: none;
+display:inline-block;
+margin-left: 60px;
+}
+nav ul li a{
+text-decoration: none;
+color: #fff;
+font-size: 15px;
+}
+h1{
+color: #fff;
+font-size: 35px;
+
+}
+p{
+color: #fff;
+}
+
+h3{
+color: #fff; 
+}
+h6{ 
+margin-bottom: 10px;
+text-align: center;
+font-size: 15px;
+color: #b84a37;
+
+}
+</style>
+<body>
+    <div class="container"> 
+
+    <nav class="navbar">
+        <img src="frontend/images/logo impe.png" class="logo">
+        <ul>
+            <li><a target="_blank" href="aboutme.html">About Me</a></li>
+            <li><a target="_blank" href="cv.html">Curriculum Vitae</a></li>
+            <li><a target="_blank" href="form.html">Form</a></li>
+            <li><a target="_blank" href="halamanutama.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <div>
+<form>
+    <h1> Form Biodata Diri</h1>
+    <p> Nama  <input type="text" name="nama"></p>
+    <p> Alamat  <input type="text" name="alamat"></p>
+    <p> Nim  <input type="text" name="nim"></p>
+    <p> Jenis Kelamin : 
+        <input type="radio" name="jk" value="laki-laki" checked /> 
+            Laki - Laki
+        <input type="radio" name="jk" value="perempuan" /> 
+            Perempuan
+        <br/></p>
+    <p> Agama 
+        <input type="checkbox" name="islam"> Islam
+        <input type="checkbox" name="protestan"> Protestan
+        <input type="checkbox" name="katolik"> Katolik <br> 
+        <input type="checkbox" name="hindu"> Hindu
+        <input type="checkbox" name="budha"> Budha
+        <input type="checkbox" name="khonghucu"> Khonghucu
+        <br/> </p>
+    <p> Jurusan 
+    <select>
+        <option>Teknik Kimia</option>
+        <option>Teknik Elektro</option>
+        <option>Teknik Informatika</option>
+        <option>Teknik Mesin</option>
+        <option>Arsitektur</option>
+        <option>Teknik Sipil</option>
+    </select>
+    <br/> </p>
+    <!-- button -->
+    <input type="submit" value="Submit" > &nbsp;
+    <input type="reset" value="Reset">
+</form> 
+
+<br>
+<!-- Progres bar -->
+<progress value="75" max="100"></progress></div>
+
+<!-- Audio -->
+    <h3>Lagu Katy Pery - Uncondationally</h2>
+    <center>
+    <audio src="frontend/videoaudio/audio.mp3" controls></audio>
+    </center>
+
+<br>
+<!-- Video -->
+    <h3>MV Lyric Katy Pery - Uncondationally</h3>
+    <center>    
+    <video width="500" controls>
+            <source src="frontend/videoaudio/video.mp4" type="video/mp4"></video> 
+    </center>
+    <section class="footer"> 
+        <footer> 
+            <h6 class="contactme"> Contact Me </h6>
+
+            <section class="footer"> 
+            <a href="https://www.instagram.com/imperiaprestise/"><img class=" Instagram " src="frontend/images/ig.png" width="30px" height="30px"></a>
+            <a href="https://www.linkedin.com/in/imperiaprestise/"><img class=" Linkedln" src="frontend/images/liinkedin.png" width="30px" height="30px"></a>
+            <a href="https://dribbble.com/imperiaa/"><img class=" Dribbble" src="frontend/images/db.png" width="30px" height="30px"></a>
+            <a href="https://www.youtube.com/channel/UCILDT8sT1np5WvVaYbO7uVg"><img class=" Youtube" src="frontend/images/yt.png" width="30px" height="25px"></a>
+        </section>
+        </footer>
+        </section>
+
+</div>
+</body>
+</html>

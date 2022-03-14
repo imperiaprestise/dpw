@@ -1,0 +1,25 @@
+body{
+    background-color: brown;
+    background-image: url(frontend/images/1.png);
+}
+
+h1{
+    font-family: helvetica;
+    font-size: 100px;
+    font-style: oblique;
+    /*font-weight: 900;*/
+    font-variant: small-caps;
+}
+
+#p1 {
+    text-align: center;
+    color:aquamarine;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+.p {
+    text-align: center;
+    color:aquamarine;
+    text-decoration: underline;
+    text-decoration-color: rgb(115, 85, 143);
+}
